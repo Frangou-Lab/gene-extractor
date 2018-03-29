@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFF44EBF1BECC74A008F3CD9 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFF44EBE1BECC74A008F3CD9 /* main.mm */; };
+		DFF44ECC1BECC7A5008F3CD9 /* CSVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFF44EC71BECC7A5008F3CD9 /* CSVUtils.mm */; };
+		DFF44ECD1BECC7A5008F3CD9 /* Lexer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFF44EC91BECC7A5008F3CD9 /* Lexer.mm */; };
+		DFF44ECE1BECC7A5008F3CD9 /* StringInputStreamObj.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFF44ECB1BECC7A5008F3CD9 /* StringInputStreamObj.mm */; };
+		DFF44ED11BECC7C2008F3CD9 /* GeneExtractor.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFF44ED01BECC7C2008F3CD9 /* GeneExtractor.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFF44EB91BECC74A008F3CD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFF44EBB1BECC74A008F3CD9 /* geneextractor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = geneextractor; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF44EBE1BECC74A008F3CD9 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		DFF44EC61BECC7A5008F3CD9 /* CSVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSVUtils.h; path = ../Common/CSVUtils.h; sourceTree = "<group>"; };
+		DFF44EC71BECC7A5008F3CD9 /* CSVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CSVUtils.mm; path = ../Common/CSVUtils.mm; sourceTree = "<group>"; };
+		DFF44EC81BECC7A5008F3CD9 /* Lexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lexer.h; path = ../Common/Lexer.h; sourceTree = "<group>"; };
+		DFF44EC91BECC7A5008F3CD9 /* Lexer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Lexer.mm; path = ../Common/Lexer.mm; sourceTree = "<group>"; };
+		DFF44ECA1BECC7A5008F3CD9 /* StringInputStreamObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringInputStreamObj.h; path = ../Common/StringInputStreamObj.h; sourceTree = "<group>"; };
+		DFF44ECB1BECC7A5008F3CD9 /* StringInputStreamObj.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = StringInputStreamObj.mm; path = ../Common/StringInputStreamObj.mm; sourceTree = "<group>"; };
+		DFF44ECF1BECC7C2008F3CD9 /* GeneExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneExtractor.h; sourceTree = "<group>"; };
+		DFF44ED01BECC7C2008F3CD9 /* GeneExtractor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GeneExtractor.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF44EB81BECC74A008F3CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF44EB21BECC74A008F3CD9 = {
+			isa = PBXGroup;
+			children = (
+				DFF44EC51BECC787008F3CD9 /* Common */,
+				DFF44EBD1BECC74A008F3CD9 /* GeneExtractor */,
+				DFF44EBC1BECC74A008F3CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF44EBC1BECC74A008F3CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF44EBB1BECC74A008F3CD9 /* geneextractor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF44EBD1BECC74A008F3CD9 /* GeneExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				DFF44ECF1BECC7C2008F3CD9 /* GeneExtractor.h */,
+				DFF44ED01BECC7C2008F3CD9 /* GeneExtractor.mm */,
+				DFF44EBE1BECC74A008F3CD9 /* main.mm */,
+			);
+			path = GeneExtractor;
+			sourceTree = "<group>";
+		};
+		DFF44EC51BECC787008F3CD9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DFF44EC61BECC7A5008F3CD9 /* CSVUtils.h */,
+				DFF44EC71BECC7A5008F3CD9 /* CSVUtils.mm */,
+				DFF44EC81BECC7A5008F3CD9 /* Lexer.h */,
+				DFF44EC91BECC7A5008F3CD9 /* Lexer.mm */,
+				DFF44ECA1BECC7A5008F3CD9 /* StringInputStreamObj.h */,
+				DFF44ECB1BECC7A5008F3CD9 /* StringInputStreamObj.mm */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF44EBA1BECC74A008F3CD9 /* GeneExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF44EC21BECC74A008F3CD9 /* Build configuration list for PBXNativeTarget "GeneExtractor" */;
+			buildPhases = (
+				DFF44EB71BECC74A008F3CD9 /* Sources */,
+				DFF44EB81BECC74A008F3CD9 /* Frameworks */,
+				DFF44EB91BECC74A008F3CD9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeneExtractor;
+			productName = GeneExtractor;
+			productReference = DFF44EBB1BECC74A008F3CD9 /* geneextractor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF44EB31BECC74A008F3CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ilya A Levochkin";
+				TargetAttributes = {
+					DFF44EBA1BECC74A008F3CD9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DFF44EB61BECC74A008F3CD9 /* Build configuration list for PBXProject "GeneExtractor" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFF44EB21BECC74A008F3CD9;
+			productRefGroup = DFF44EBC1BECC74A008F3CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF44EBA1BECC74A008F3CD9 /* GeneExtractor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF44EB71BECC74A008F3CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF44ECD1BECC7A5008F3CD9 /* Lexer.mm in Sources */,
+				DFF44ED11BECC7C2008F3CD9 /* GeneExtractor.mm in Sources */,
+				DFF44ECE1BECC7A5008F3CD9 /* StringInputStreamObj.mm in Sources */,
+				DFF44ECC1BECC7A5008F3CD9 /* CSVUtils.mm in Sources */,
+				DFF44EBF1BECC74A008F3CD9 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DFF44EC01BECC74A008F3CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DFF44EC11BECC74A008F3CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFF44EC31BECC74A008F3CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				PRODUCT_NAME = geneextractor;
+			};
+			name = Debug;
+		};
+		DFF44EC41BECC74A008F3CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				PRODUCT_NAME = geneextractor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF44EB61BECC74A008F3CD9 /* Build configuration list for PBXProject "GeneExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF44EC01BECC74A008F3CD9 /* Debug */,
+				DFF44EC11BECC74A008F3CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF44EC21BECC74A008F3CD9 /* Build configuration list for PBXNativeTarget "GeneExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF44EC31BECC74A008F3CD9 /* Debug */,
+				DFF44EC41BECC74A008F3CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF44EB31BECC74A008F3CD9 /* Project object */;
+}
