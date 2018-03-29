@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF54E746206D003500577A7A /* CSVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF54E740206D003500577A7A /* CSVUtils.mm */; };
+		CF54E747206D003500577A7A /* StringInputStreamObj.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF54E741206D003500577A7A /* StringInputStreamObj.mm */; };
+		CF54E748206D003500577A7A /* Lexer.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF54E742206D003500577A7A /* Lexer.mm */; };
 		DFF44EBF1BECC74A008F3CD9 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFF44EBE1BECC74A008F3CD9 /* main.mm */; };
-		DFF44ECC1BECC7A5008F3CD9 /* CSVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFF44EC71BECC7A5008F3CD9 /* CSVUtils.mm */; };
-		DFF44ECD1BECC7A5008F3CD9 /* Lexer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFF44EC91BECC7A5008F3CD9 /* Lexer.mm */; };
-		DFF44ECE1BECC7A5008F3CD9 /* StringInputStreamObj.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFF44ECB1BECC7A5008F3CD9 /* StringInputStreamObj.mm */; };
 		DFF44ED11BECC7C2008F3CD9 /* GeneExtractor.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFF44ED01BECC7C2008F3CD9 /* GeneExtractor.mm */; };
 /* End PBXBuildFile section */
 
@@ -27,14 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF54E740206D003500577A7A /* CSVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CSVUtils.mm; sourceTree = "<group>"; };
+		CF54E741206D003500577A7A /* StringInputStreamObj.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StringInputStreamObj.mm; sourceTree = "<group>"; };
+		CF54E742206D003500577A7A /* Lexer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Lexer.mm; sourceTree = "<group>"; };
+		CF54E743206D003500577A7A /* StringInputStreamObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringInputStreamObj.h; sourceTree = "<group>"; };
+		CF54E744206D003500577A7A /* Lexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lexer.h; sourceTree = "<group>"; };
+		CF54E745206D003500577A7A /* CSVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVUtils.h; sourceTree = "<group>"; };
 		DFF44EBB1BECC74A008F3CD9 /* geneextractor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = geneextractor; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF44EBE1BECC74A008F3CD9 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		DFF44EC61BECC7A5008F3CD9 /* CSVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSVUtils.h; path = ../Common/CSVUtils.h; sourceTree = "<group>"; };
-		DFF44EC71BECC7A5008F3CD9 /* CSVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CSVUtils.mm; path = ../Common/CSVUtils.mm; sourceTree = "<group>"; };
-		DFF44EC81BECC7A5008F3CD9 /* Lexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lexer.h; path = ../Common/Lexer.h; sourceTree = "<group>"; };
-		DFF44EC91BECC7A5008F3CD9 /* Lexer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Lexer.mm; path = ../Common/Lexer.mm; sourceTree = "<group>"; };
-		DFF44ECA1BECC7A5008F3CD9 /* StringInputStreamObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringInputStreamObj.h; path = ../Common/StringInputStreamObj.h; sourceTree = "<group>"; };
-		DFF44ECB1BECC7A5008F3CD9 /* StringInputStreamObj.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = StringInputStreamObj.mm; path = ../Common/StringInputStreamObj.mm; sourceTree = "<group>"; };
 		DFF44ECF1BECC7C2008F3CD9 /* GeneExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneExtractor.h; sourceTree = "<group>"; };
 		DFF44ED01BECC7C2008F3CD9 /* GeneExtractor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GeneExtractor.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,7 +53,6 @@
 		DFF44EB21BECC74A008F3CD9 = {
 			isa = PBXGroup;
 			children = (
-				DFF44EC51BECC787008F3CD9 /* Common */,
 				DFF44EBD1BECC74A008F3CD9 /* GeneExtractor */,
 				DFF44EBC1BECC74A008F3CD9 /* Products */,
 			);
@@ -70,24 +69,17 @@
 		DFF44EBD1BECC74A008F3CD9 /* GeneExtractor */ = {
 			isa = PBXGroup;
 			children = (
+				CF54E745206D003500577A7A /* CSVUtils.h */,
+				CF54E740206D003500577A7A /* CSVUtils.mm */,
+				CF54E744206D003500577A7A /* Lexer.h */,
+				CF54E742206D003500577A7A /* Lexer.mm */,
+				CF54E743206D003500577A7A /* StringInputStreamObj.h */,
+				CF54E741206D003500577A7A /* StringInputStreamObj.mm */,
 				DFF44ECF1BECC7C2008F3CD9 /* GeneExtractor.h */,
 				DFF44ED01BECC7C2008F3CD9 /* GeneExtractor.mm */,
 				DFF44EBE1BECC74A008F3CD9 /* main.mm */,
 			);
 			path = GeneExtractor;
-			sourceTree = "<group>";
-		};
-		DFF44EC51BECC787008F3CD9 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				DFF44EC61BECC7A5008F3CD9 /* CSVUtils.h */,
-				DFF44EC71BECC7A5008F3CD9 /* CSVUtils.mm */,
-				DFF44EC81BECC7A5008F3CD9 /* Lexer.h */,
-				DFF44EC91BECC7A5008F3CD9 /* Lexer.mm */,
-				DFF44ECA1BECC7A5008F3CD9 /* StringInputStreamObj.h */,
-				DFF44ECB1BECC7A5008F3CD9 /* StringInputStreamObj.mm */,
-			);
-			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFF44ECD1BECC7A5008F3CD9 /* Lexer.mm in Sources */,
+				CF54E748206D003500577A7A /* Lexer.mm in Sources */,
 				DFF44ED11BECC7C2008F3CD9 /* GeneExtractor.mm in Sources */,
-				DFF44ECE1BECC7A5008F3CD9 /* StringInputStreamObj.mm in Sources */,
-				DFF44ECC1BECC7A5008F3CD9 /* CSVUtils.mm in Sources */,
+				CF54E746206D003500577A7A /* CSVUtils.mm in Sources */,
+				CF54E747206D003500577A7A /* StringInputStreamObj.mm in Sources */,
 				DFF44EBF1BECC74A008F3CD9 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
