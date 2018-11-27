@@ -1,9 +1,6 @@
 gene-extractor
 ==============
 
-Usage
------
-
 Building
 --------
 Requires Xcode 6.3+
